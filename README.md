@@ -58,8 +58,11 @@ The Foundry configuration in each project defines two named RPC endpoints:
 
 ## Deployed contracts (testnet)
 
-Reference deployments on Monad testnet (chain 10143), built from this repository
-and verified with Sourcify (exact match):
+Reference deployments on Monad testnet (chain 10143), built from this
+repository. All three contracts are verified on
+[MonadVision](https://testnet.monadvision.com) (exact match, via its Sourcify
+verification service) and on the public [Sourcify](https://sourcify.dev)
+registry:
 
 | Contract | Address |
 | --- | --- |
