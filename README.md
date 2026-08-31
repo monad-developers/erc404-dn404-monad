@@ -56,18 +56,22 @@ The Foundry configuration in each project defines two named RPC endpoints:
 | Block explorer | https://testnet.monadvision.com | https://monadvision.com |
 | Faucet | https://faucet.monad.xyz | Not applicable |
 
-## Deployed contracts (testnet)
+## Deployed contracts
 
-Reference deployments on Monad testnet (chain 10143), built from this repository
-and verified with Sourcify (exact match):
+Reference deployments built from this repository, live on Monad testnet (chain
+10143) and mainnet (chain 143). The deployer used a fresh account on both
+networks, so each contract has the same address on both. All are verified with
+Sourcify (exact match) on both networks:
 
-| Contract | Address |
-| --- | --- |
-| `SimpleDN404` (ERC-20 side) | [`0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e`](https://testnet.monadvision.com/address/0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e) |
-| `DN404Mirror` (ERC-721 side) | [`0x4AC38640823bd369Ae83758e99B604AF6754a38D`](https://testnet.monadvision.com/address/0x4AC38640823bd369Ae83758e99B604AF6754a38D) |
-| `ERC404Example` | [`0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C`](https://testnet.monadvision.com/address/0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C) |
+| Contract | Address | Explorer |
+| --- | --- | --- |
+| `SimpleDN404` (ERC-20 side) | `0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e` | [testnet](https://testnet.monadvision.com/address/0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e) · [mainnet](https://monadvision.com/address/0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e) |
+| `DN404Mirror` (ERC-721 side) | `0x4AC38640823bd369Ae83758e99B604AF6754a38D` | [testnet](https://testnet.monadvision.com/address/0x4AC38640823bd369Ae83758e99B604AF6754a38D) · [mainnet](https://monadvision.com/address/0x4AC38640823bd369Ae83758e99B604AF6754a38D) |
+| `ERC404Example` | `0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C` | [testnet](https://testnet.monadvision.com/address/0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C) · [mainnet](https://monadvision.com/address/0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C) |
 
-Both use the default token parameters from the deploy scripts.
+Both projects use the default token parameters from the deploy scripts. The
+deployments are examples; the standards remain experimental and unaudited (see
+Status and audits).
 
 ## Deploy
 
