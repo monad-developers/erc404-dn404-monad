@@ -1,0 +1,12 @@
+# Foundry build output
+**/out/
+**/cache/
+**/broadcast/**/dry-run/
+
+# Foundry dependencies (installed via `forge install`)
+/dn404/lib/
+/erc404/lib/
+
+# Secrets
+.env
+**/.env
