@@ -53,8 +53,21 @@ The Foundry configuration in each project defines two named RPC endpoints:
 | Chain ID | 10143 | 143 |
 | RPC URL | https://testnet-rpc.monad.xyz | https://rpc.monad.xyz |
 | Currency | MON | MON |
-| Block explorer | https://testnet.monadexplorer.com | https://monadexplorer.com |
+| Block explorer | https://testnet.monadvision.com | https://monadvision.com |
 | Faucet | https://faucet.monad.xyz | Not applicable |
+
+## Deployed contracts (testnet)
+
+Reference deployments on Monad testnet (chain 10143), built from this repository
+and verified with Sourcify (exact match):
+
+| Contract | Address |
+| --- | --- |
+| `SimpleDN404` (ERC-20 side) | [`0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e`](https://testnet.monadvision.com/address/0xA7575f7D294220e569BC20b9ee5bcA5dc71B647e) |
+| `DN404Mirror` (ERC-721 side) | [`0x4AC38640823bd369Ae83758e99B604AF6754a38D`](https://testnet.monadvision.com/address/0x4AC38640823bd369Ae83758e99B604AF6754a38D) |
+| `ERC404Example` | [`0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C`](https://testnet.monadvision.com/address/0x1B7A5e48c1Fe39ae38C642d7d9a0CD8FA85D253C) |
+
+Both use the default token parameters from the deploy scripts.
 
 ## Deploy
 

@@ -1,7 +1,7 @@
 # Foundry build output
 **/out/
 **/cache/
-**/broadcast/**/dry-run/
+**/broadcast/
 
 # Foundry dependencies (installed via `forge install`)
 /dn404/lib/
